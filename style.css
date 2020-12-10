@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+}
+table, td {
+	width: 60%;
+	background-color: white;
+	padding: 10px;
+	border: none;
+}
+
+.header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.header2 {
+	font-weight: bold;
+	text-align: left;
+	font-size: 25px;
+}
+.input1, input[type=text] {
+	width: 70%;
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.button {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: none;
+	width: 100px;
+}
+.button:hover {
+	background-color: white;
+	cursor: pointer;
+	color: black;
+}
